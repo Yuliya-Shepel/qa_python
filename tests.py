@@ -27,7 +27,6 @@ class BooksCollector:
     def is_for_children(self, name):
         return self.get_book_genre(name) is None
 
-
     def get_books_genre(self, name):
         """Возвращает жанр книги или None, если не найдено."""
         return self.get_book_genre(name)
